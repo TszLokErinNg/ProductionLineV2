@@ -185,13 +185,13 @@ Conveyor belt - A belt that drives objects forward
 
 Sensors provide unstable signals due to an enormous amount of I/Os installed in a PLC controller, it causes unstable voltage signals that leads to unpredictable signal spikes, in real-life this produces false feedback and causes machine breakdown. 70% of my tests were ran to overcome this issue, the only way to overcome this is to add delay transitions.  
 
-![Sensor-hiccups](Traces/Sensor%20hiccups.png)
+![Sensor-hiccups](Traces/Sensor%20hiccups(written).png)
 
 ### 2. Analog noises
 
 Analog noise would appear when an analog input is enabled and idled, its not like digital sensors that flickers on and off, analog input produces spikes during sensing. For example, the weight sensor that I have integrated to my 3-axis pick and place station, before sending boxes to it it has to go through a weighting phase, where boxes will be weighted and sorted to the pick and place machines, while the boxes travels to the weight sensor, the sensor produces spikes instead of a linear change in value. This produces false feedback if the line operates in fast-paced, so adding an appropriate delay transition would generate better weight accuracy.
 
-![Analog-noise](Traces/Analog%20pnp_1%20.png)
+![Analog-noise](Traces/Box%20weight%20spikes(written).png)
 
 ## Final thoughts
 
