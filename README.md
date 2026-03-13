@@ -101,7 +101,7 @@ The overall priority list(level 1 as lowest, level 5 as highest):
 
 Sequential programming in a PLC is used whenever a machine needs to follow a specific and repeatable order of operations. Instead of every part of the program fighting for control at once, the code is structured so that "Step 2" cannot happen until "Step 1" is successfully completed. This is the most common "State Machine" logic, where the PLC tracks exactly which phase of a process the machine is currently in. 
 
-![SeqExample](Images/SeqProgrammingExample.png)
+![SeqExample](Images/SeqProgramExample.png)
 ![image](Images/SFC.png)
 
 One good practice to easily sort out the basic sequential operation of a machine is to draw a **Sequential Function Chart (SFC)**, have one side identifying what you want the machine to do throughout the process. To make a strong sequential operations, here are the objectives:
