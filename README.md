@@ -104,7 +104,7 @@ Sequential programming in a PLC is used whenever a machine needs to follow a spe
 ![SeqExample](Images/SeqProgramExample.png)
 ![image](Images/SFC.png)
 
-One good practice to easily sort out the basic sequential operation of a machine is to draw a **Sequential Function Chart (SFC)**, have one side identifying what you want the machine to do throughout the process. To make a strong sequential operations, here are the objectives:
+One good practice to easily sort out the basic sequential operation of a machine is to draw a **Sequential Function Chart (SFC)**, have one side identifying what you want the machine to do throughout the process. Here are some helpful tips to make a strong sequential operation:
 
 - Have 4 important feedback alarms:
     - Idle - The Sequence isn’t triggered
@@ -197,7 +197,7 @@ Analog noise would appear when an analog input is enabled and idled, its not lik
 
 This project is not just developing existing technical skills, it also enhances my understanding on utilizing software capabilities, safety practices, understanding the issue through PFMEA and eventually developing a sophisticated solution where I structure ladder logic defensively, every logic should have a way in, a way out, and a way to fail safely. Not all PLC programmed operations are perfect, but as controls designers we makes systems that are scalable and easy to maintain.
 
-A well built production lines can still make mistakes:
+A well built production line can still make mistakes:
 [![Blooper Video](Images/BlooperThumbmail.png)](https://youtu.be/rqt-PdUesNc)
 
 For someone that comes with minimal hands-on PLC experience, Factory I/O is a game-changer as it was known for its realism simulating real-world conditions for industrial processes, It's a fantastic tool for learning how to integrate sensors and actuators seamlessly. I would recommend utilizing the tool for someone that has enthusiasm towards PLC controls automation. 
