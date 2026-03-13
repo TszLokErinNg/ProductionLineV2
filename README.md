@@ -45,7 +45,7 @@ The production line consists of five stations: Control panel, incoming supply st
 
 ## Project motivation
 
-This project is mainly to gain better insights of how an automated production line works in the industry, as well as understanding the common challenges that PLC programmers faced it involes controlling different industrial machines programmed and how they incorporated together. To line up all the dots and getting to utilize all the machines provided by FACTORY I/O. Here is my process flowchart of my production line.
+This project is mainly to gain better insights of how an automated production line works in the industry, as well as understanding the common challenges that PLC programmers faced it involes controlling different industrial machines programmed and how they incorporated together. To line up all the dots and getting to utilize all the machines provided by FACTORY I/O. Here is my process design of my production line.
 
 ![flowchart](Images/flowchart.jpg)
 
