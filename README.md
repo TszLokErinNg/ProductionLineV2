@@ -1,6 +1,6 @@
 ---
 
-# Welcome to my PLC production line!
+# Welcome to my PLC production line!🧑‍🔧⚙️
 
 This project is a month-long PLC automation project where I designed and programmed a working production line using Ladder Logic (LAD) on a Siemens PLC in TIA Portal. The system coordinates multiple parts of the line, including supply and storage sections, pick-and-place mechanisms for different box sizes, and various sensors, to move and process boxes automatically on the conveyor. With almost 30-40 hours of dedication per week, this is by far one of the biggest projects I have done in awhile, so I decided to share some of the most important takeaways and a deep dive of my project.
 
@@ -41,13 +41,13 @@ The production line consists of five stations: Control panel, incoming supply st
 
 1. Siemens TIA portal v20 — Backend PLC programming tool application
 2. PLCSIM — Simulating a Siemens S7-1200 PLC controller 
-3. Factory IO — Frontend simulation
+3. Factory I/O — Frontend simulation
 
 ## Project motivation
 
 This project is mainly to gain better insights of how an automated production line works in the industry, as well as understanding the common challenges that PLC programmers faced it involes controlling different industrial machines programmed and how they incorporated together. To line up all the dots and getting to utilize all the machines provided by FACTORY I/O. Here is my process flowchart of my production line.
 
-[flowchart]
+![flowchart](Images/flowchart.jpg)
 
 ## Project Gap
 
@@ -207,4 +207,4 @@ This project so completely scalable, personally I haven’t touch based on all o
 
 ### Reference
 
-[!Factory I/O Part Manual](https://docs.factoryio.com/manual/parts/sensors/)
+[Factory I/O Part Manual](https://docs.factoryio.com/manual/parts/sensors/)
